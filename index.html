@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- frant -->
+            <div class="frant" id="btn1">
+                <div class="log">
+                    <img src="img/08.jpg" alt="">
+                </div>
+                <div class="heading">
+                    Hacker Community
+                </div>
+                <div class="btndiv">
+                    <button class="btn">E-Mail</button>
+                    <button class="btn">Content</button>
+                </div>
+                <ul class="social">
+                    <li class="insta"><a href="#"><img src="img/01.png" alt=""></a></li>
+                    <li class="wts"><a href="#"><img src="img/04.png" alt=""></a></li>
+                    <li class="face"><a href="#"><img src="img/05.png" alt=""></a></li>
+                    <li class="twt"><a href="#"><img src="img/07.png" alt=""></a></li>
+                </ul>
+            </div>
+            <!-- back -->
+            <div class="back" id="btn2">
+                <div class="innerbox">
+                    <div class="img">
+                        <div class="backul">
+                           <ul class="item">
+                               <li class="insta"><img src="img/01.png" alt=""></li>
+                               <li class="wts"><img src="img/04.png" alt=""></li>
+                               <li class="face"><img src="img/05.png" alt=""></li>
+                               <li class="twt"><img src="img/07.png" alt=""></li>
+                           </ul>
+                        </div>
+                    </div>
+                    <div class="intro">
+                            <h2>Mukesh Kumar</h2>
+                            <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<!-- <script type="text/javascript" src="vanilla-tilt.js"></script> -->
+<script>
+    VanillaTilt.init(document.querySelector(".card"),
+        {
+            max: 10,
+            speed: 400,
+            glare: false,
+            "max-glare": 1,
+        });
+
+</script>
+
+</html>
